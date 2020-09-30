@@ -1,0 +1,157 @@
+{
+  "@context" : {
+    "thingName" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#thingName"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "DataType" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#DataType"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Link" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#Link"
+    },
+    "describes" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#describes",
+      "@type" : "@id"
+    },
+    "MediaType" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#MediaType"
+    },
+    "interactionName" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#interactionName"
+    },
+    "Thing" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#Thing"
+    },
+    "providesInteractionPattern" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#providesInteractionPattern",
+      "@type" : "@id"
+    },
+    "DataSchema" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#DataSchema"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasValueType" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#hasValueType",
+      "@type" : "@id"
+    },
+    "baseURI" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#baseURI",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "providedBy" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#providedBy",
+      "@type" : "@id"
+    },
+    "hasOutputData" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#hasOutputData",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#Event"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "href" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#href",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "name" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "CommunicationProtocol" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#CommunicationProtocol"
+    },
+    "isProvidedOverProtocol" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#isProvidedOverProtocol",
+      "@type" : "@id"
+    },
+    "implementsSecurity" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#implementsSecurity",
+      "@type" : "@id"
+    },
+    "Security" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#Security"
+    },
+    "hasInputData" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#hasInputData",
+      "@type" : "@id"
+    },
+    "deprecated" : {
+      "@id" : "http://www.w3.org/2002/07/owl#deprecated"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "hasMediaType" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#hasMediaType",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Property" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#Property"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isMeasuredIn" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#isMeasuredIn",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "InteractionPattern" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#InteractionPattern"
+    },
+    "defaultValue" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#defaultValue",
+      "@type" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+    },
+    "isAccessibleThrough" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#isAccessibleThrough",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isWritable" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#isWritable",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "Action" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#Action"
+    },
+    "Unit_of_measure" : {
+      "@id" : "http://www.wurvoc.org/vocabularies/om-1.8/Unit_of_measure"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "isDescribedBy" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#isDescribedBy",
+      "@type" : "@id"
+    },
+    "isRequired" : {
+      "@id" : "http://iot.linkeddata.es/def/wot#isRequired",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    }
+  }
+}
